@@ -1,0 +1,90 @@
+sound-theme-freedesktop
+------------------------------------------
+Freedesktop.org sound theme
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-1
+  cygport-0.4.2-1
+  make-3.81-1
+
+Canonical website:
+  http://www.freedesktop.org/wiki/Specifications/sound-theme-spec
+
+Canonical download:
+  http://people.freedesktop.org/~mccann/dist/
+
+-------------------------------------------
+
+Build instructions:
+  unpack sound-theme-freedesktop-0.2-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./sound-theme-freedesktop-0.2-X.cygport all
+
+This will create:
+  /usr/src/sound-theme-freedesktop-0.2-X-src.tar.bz2
+  /usr/src/sound-theme-freedesktop-0.2-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/share/doc/sound-theme-freedesktop-0.2/ChangeLog
+  /usr/share/doc/sound-theme-freedesktop-0.2/INSTALL
+  /usr/share/doc/sound-theme-freedesktop-0.2/NEWS
+  /usr/share/doc/sound-theme-freedesktop-0.2/README
+  /usr/share/sounds/freedesktop/index.theme
+  /usr/share/sounds/freedesktop/stereo/audio-channel-front-center.ogg
+  /usr/share/sounds/freedesktop/stereo/audio-channel-front-left.ogg
+  /usr/share/sounds/freedesktop/stereo/audio-channel-front-right.ogg
+  /usr/share/sounds/freedesktop/stereo/audio-channel-rear-center.ogg
+  /usr/share/sounds/freedesktop/stereo/audio-channel-rear-left.ogg
+  /usr/share/sounds/freedesktop/stereo/audio-channel-rear-right.ogg
+  /usr/share/sounds/freedesktop/stereo/audio-channel-side-left.ogg
+  /usr/share/sounds/freedesktop/stereo/audio-channel-side-right.ogg
+  /usr/share/sounds/freedesktop/stereo/audio-test-signal.ogg
+  /usr/share/sounds/freedesktop/stereo/battery-low.ogg
+  /usr/share/sounds/freedesktop/stereo/bell.ogg
+  /usr/share/sounds/freedesktop/stereo/button-pressed.ogg
+  /usr/share/sounds/freedesktop/stereo/button-toggle-off.ogg
+  /usr/share/sounds/freedesktop/stereo/button-toggle-on.ogg
+  /usr/share/sounds/freedesktop/stereo/complete-media-burn.ogg
+  /usr/share/sounds/freedesktop/stereo/desktop-login.ogg
+  /usr/share/sounds/freedesktop/stereo/desktop-logout.ogg
+  /usr/share/sounds/freedesktop/stereo/dialog-cancel.ogg
+  /usr/share/sounds/freedesktop/stereo/dialog-error.ogg
+  /usr/share/sounds/freedesktop/stereo/dialog-information.ogg
+  /usr/share/sounds/freedesktop/stereo/dialog-ok.ogg
+  /usr/share/sounds/freedesktop/stereo/dialog-question.ogg
+  /usr/share/sounds/freedesktop/stereo/dialog-warning.ogg
+  /usr/share/sounds/freedesktop/stereo/link-pressed.ogg
+  /usr/share/sounds/freedesktop/stereo/menu-click.ogg
+  /usr/share/sounds/freedesktop/stereo/message-new-email.ogg
+  /usr/share/sounds/freedesktop/stereo/message-new-instant.ogg
+  /usr/share/sounds/freedesktop/stereo/phone-incoming-call.ogg
+  /usr/share/sounds/freedesktop/stereo/phone-outgoing-busy.ogg
+  /usr/share/sounds/freedesktop/stereo/power-unplug.ogg
+  /usr/share/sounds/freedesktop/stereo/service-login.ogg
+  /usr/share/sounds/freedesktop/stereo/service-logout.ogg
+  /usr/share/sounds/freedesktop/stereo/suspend-error.ogg
+  /usr/share/sounds/freedesktop/stereo/trash-empty.ogg
+  /usr/share/sounds/freedesktop/stereo/window-close.ogg
+  /usr/share/sounds/freedesktop/stereo/window-maximized.ogg
+  /usr/share/sounds/freedesktop/stereo/window-minimized.ogg
+  /usr/share/sounds/freedesktop/stereo/window-move-start.ogg
+  /usr/share/sounds/freedesktop/stereo/window-move-stop.ogg
+  /usr/share/sounds/freedesktop/stereo/window-slide.ogg
+
+------------------
+
+Port Notes:
+
+----- version 0.2-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
