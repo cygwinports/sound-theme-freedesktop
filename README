@@ -4,9 +4,9 @@ Freedesktop.org sound theme
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.64-10
+  autoconf2.5-2.63-10
   automake1.10-1.10.2-1
-  cygport-0.9.9-1
+  cygport-0.9.10-1
   make-3.81-2
 
 Canonical website:
@@ -18,19 +18,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack sound-theme-freedesktop-0.4-X-src.tar.bz2
+  unpack sound-theme-freedesktop-0.7-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./sound-theme-freedesktop-0.4-X.cygport all
+  cygport ./sound-theme-freedesktop-0.7-X.cygport all
 
 This will create:
-  /usr/src/sound-theme-freedesktop-0.4-X-src.tar.bz2
-  /usr/src/sound-theme-freedesktop-0.4-X.tar.bz2
+  /usr/src/sound-theme-freedesktop-0.7-X-src.tar.bz2
+  /usr/src/sound-theme-freedesktop-0.7-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
+
+----- version 0.7-1 -----
+Version bump.
 
 ----- version 0.4-1 -----
 Version bump.

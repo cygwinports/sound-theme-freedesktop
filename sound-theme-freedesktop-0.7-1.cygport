@@ -1,0 +1,3 @@
+
+HOMEPAGE="http://www.freedesktop.org/wiki/Specifications/sound-theme-spec"
+SRC_URI="http://cgit.freedesktop.org/${PN}/snapshot/${P}.tar.bz2"

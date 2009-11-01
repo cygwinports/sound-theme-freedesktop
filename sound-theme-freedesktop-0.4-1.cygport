@@ -1,3 +1,0 @@
-
-HOMEPAGE=
-SRC_URI="http://people.freedesktop.org/~mccann/dist/${P}.tar.bz2"
