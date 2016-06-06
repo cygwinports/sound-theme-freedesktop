@@ -1,0 +1,10 @@
+NAME="sound-theme-freedesktop"
+VERSION=0.7
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="Freedesktop.org sound theme"
+DESCRIPTION="Default sound theme for Freedesktop Sound Theme Specification"
+HOMEPAGE="http://www.freedesktop.org/wiki/Specifications/sound-theme-spec"
+SRC_URI="http://cgit.freedesktop.org/${VERSION}/snapshot/${NAME}-${VERSION}.tar.bz2"
+
+ARCH=noarch
